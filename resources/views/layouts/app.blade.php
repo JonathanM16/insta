@@ -1,3 +1,9 @@
+{{-- 
+    Jonathan Jesus Martinez Guzman
+    Diego Barba Ramirez
+    Maria Fernanda Tostado Cholico
+    Mario Orlando Fonseca Torres 
+--}}
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -9,7 +15,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
     <script src="{{ asset('js/app.js')}}"></script>
 </head>
-
         <body class="bg-gray-100">
             <header class="p-5 border-b bg-white shadow">
 
@@ -37,8 +42,6 @@
             <footer class=" mt-10 text-center p-5 text-gray-500 font-bold uppercase ">
                     Programación para Internet - Todos los derechos reservados  {{now()->year}}
             </footer>
-
-
 
            
             {{-- helpers : funciones dentro de los templates --}}
